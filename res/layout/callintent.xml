@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/d2" >
+
+    
+    <TextView
+            android:id="@+id/calll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="70sp"
+            android:text="@string/call"
+            android:textColor="#FF0000"
+            android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/call1"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10sp"
+        android:text="@string/cal"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+       <EditText
+          android:id="@+id/edit1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="10sp"
+          android:paddingTop="50sp"
+          android:gravity="center"
+          android:hint="@string/num"
+          android:textColor="#FFD700" />
+
+       <Button
+           android:id="@+id/buttv1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/show" />
+   
+</LinearLayout>

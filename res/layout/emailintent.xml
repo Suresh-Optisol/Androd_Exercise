@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/t2" >
+     <TextView
+            android:id="@+id/emmmal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+          
+            android:text="@string/email"
+            android:textColor="#FF0000"
+            android:textSize="40sp" />
+      <TextView
+        android:id="@+id/em1"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10sp"
+        android:text="@string/to"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+      <EditText
+          android:id="@+id/edit1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="10sp"
+          android:paddingTop="20sp"
+          android:gravity="center"
+          android:hint="@string/to"
+          android:textColor="#FFD700" />
+       <TextView
+        android:id="@+id/em3"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sub"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+       <EditText
+          android:id="@+id/edit2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="10sp"
+          android:paddingTop="20sp"
+          android:gravity="center"
+          android:hint="@string/sub"
+          android:textColor="#FFD700" />
+        <TextView
+        android:id="@+id/em2"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mes"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+      
+        <EditText
+          android:id="@+id/edit3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="20sp"
+          android:gravity="center"
+          android:hint="@string/mes"
+          android:textColor="#FFD700" 
+          android:paddingBottom="30sp"/>
+       
+
+       <Button
+           android:id="@+id/buttv1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/show" />
+   
+    
+    
+
+</LinearLayout>
